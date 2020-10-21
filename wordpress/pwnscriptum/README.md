@@ -1,4 +1,4 @@
-# Wordpress 4.6 Remote Code Execution Vulnerability（PwnScriptum）
+# Wordpress 4.6 Remote Code Execution Vulnerability (PwnScriptum)
 
 [中文版本(Chinese version)](README.zh-cn.md)
 
@@ -13,7 +13,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-Because Mysql initialization needs a little time, so please wait. After initialization succeeds, visit the site, set the administrator username and password to use it (the database is configured and not automatically updated).
+Because Mysql initialization needs a little time, so please wait. After initialization succeeds, visit `http://your-ip:8080/`, set the administrator username and password to use it (the database is configured and not automatically updated).
 
 ## Exploit
 
