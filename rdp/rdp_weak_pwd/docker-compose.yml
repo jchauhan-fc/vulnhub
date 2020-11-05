@@ -1,0 +1,8 @@
+version: '2.2'
+services:
+  rdp:
+    build: .
+    init: true
+    ports:
+      - "3389:3389"
+
